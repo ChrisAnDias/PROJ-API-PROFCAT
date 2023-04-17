@@ -1,0 +1,29 @@
+{
+  "name": "proj-api-profcat",
+  "version": "1.0.0",
+  "description": "API with a CRUD in JS. <br>\r Objective: help designers to obtains quick information about metallic profiles.\r <br>",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisAnDias/PROJ-API-PROFCAT.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisAnDias/PROJ-API-PROFCAT/issues"
+  },
+  "homepage": "https://github.com/ChrisAnDias/PROJ-API-PROFCAT#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
